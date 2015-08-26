@@ -141,3 +141,25 @@
 .read-more>a{
     color: #f27032;
 }
+
+/*---- clients ----*/
+
+.clients{
+padding-bottom: 150px;
+    padding-top: 100px;
+}
+
+
+.client-topic{
+    font-size: 24px;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color:#f27032;
+     border-width: 1px;
+    margin-bottom: 40px;
+}
+
+.client-description{
+    font-size: 14px;
+    text-align: center;
+}
