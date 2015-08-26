@@ -1,0 +1,51 @@
+/* ---- header-area -----*/
+
+.image{
+    width: 100%;
+    
+}
+
+.header-area{
+    background-image: url("../images/header-image2.jpg");
+    padding-top: 400px;
+    padding-bottom:300px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.topic-header{
+    font-size: 40px;
+    padding-bottom: 100px;
+}
+
+.header-integers{
+   color: #f27032;
+   font-size: 34px;
+   margin-left: 54px;
+   margin-right: 6px;
+
+}
+
+.header-icon-down{
+    font-family: fontAwesome;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+}
+
+.icon{
+  color: #ffffff;
+}
+
+/*---- nav-bar ----*/
+
+.nav-bar{
+  color: #3d291a;
+}
+
+.icon-nav-bar{
+    margin-right: 5px;
+    color: #63c6be;
+}
