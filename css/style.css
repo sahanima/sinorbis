@@ -211,3 +211,93 @@ body{
     color: #ffffff;
 }
 
+/*---- insights ------*/
+
+.insights{
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.insights-topic{
+    font-size: 30px;
+    text-align: center; 
+    padding-bottom: 20px;
+    color: #402c1e;
+
+}
+
+.col-content-insights{
+    font-size: 14px;
+     color: #402c1e;
+    margin-top: 25px;
+
+}
+
+.col-content-insights>a{
+    font-size: 14px;
+    color: #402c1e;
+}
+
+.nico{    
+    color: #5cc1f1;
+    margin-right: 5px;
+}
+
+/* --- form--------------*/
+
+.form{
+    background-color: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    
+}
+
+.form-topic{
+    font-size: 24px;
+    text-align: center;
+    font-family: Myriad Pro;
+    color: #402c1e;
+    padding-bottom: 30px;
+}
+
+.form-content{
+
+   padding-right: 8%;
+    padding-left: 8%;
+}
+
+.text-box{
+    border-radius: 5px;
+    width: 360px;
+    height: 30px;
+    padding: 5px;
+    margin-right: 30px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.button-subscribe{
+    width: 165px;
+    height: 30px;
+    border-color: #ad390c;
+    background-color: #f27032;
+    color: #ffffff;
+}
+
+.form-content{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+/*------ contact-us-------*/
+
+.contact-us{
+    padding-top: 65px;
+    padding-bottom: 70px;
+
+
+}
