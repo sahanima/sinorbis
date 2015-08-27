@@ -1,3 +1,8 @@
+body{
+ font-family: Myriad Pro;
+}
+
+
 /* ---- header-area -----*/
 
 .image{
@@ -7,25 +12,24 @@
 
 .header-area{
     background-image: url("../images/header-image2.jpg");
-    padding-top: 400px;
-    padding-bottom:300px;
+    padding-top: 150px;
+    padding-bottom:50px;
     color: #ffffff;
     text-align: center;
     font-size: 24px;
-    font-weight: 100;
+    font-family: Myriad Pro;
+    
 }
 
 .topic-header{
-    font-size: 40px;
-    padding-bottom: 100px;
+    font-size: 48px;
+    padding-bottom: 50px;
 }
 
 .header-integers{
    color: #f27032;
-   font-size: 34px;
-   margin-left: 54px;
-   margin-right: 6px;
-
+   font-size: 36px;
+   margin-left: 30px;
 }
 
 .header-icon-down{
@@ -36,7 +40,8 @@
 }
 
 .icon{
-  color: #ffffff;
+  color:aqua;
+  margin-top: -200px;
 }
 
 /*---- nav-bar ----*/
@@ -51,27 +56,27 @@
     color: #63c6be;
 }
 
+.nav-with-icon{
+    margin-left: 80px;
+
+}
+
 /*------ sinorbis-began----*/
 .sinorbis-began{
-    padding-top: 100px;
-    padding-bottom: 150px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .sinorbis-began-topic{
     color: #3d291a;
-    font-size: 24px;
+    font-size: 30px;
     text-align: center;
 }
 
 .sinorbis-began-sub-topic{
     color: #3d291a;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
-    border-top-style: solid;
-    border-top-color:#f27032; 
-    border-bottom-style: solid;
-    border-bottom-color:#f27032;
-    border-width: 1px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -86,16 +91,15 @@
 }
 
 
-/* ---- or-offerings ----*/
+/* ---- uor-offerings ----*/
 
 .row-offerings{
- margin-top: 100px;
-
+  margin-top: 50px;
 }
 
 .our-offerings{
-    padding-top: 156px;
-    padding-bottom: 200px;
+    padding-top: 50px;
+    padding-bottom:70px;
     color: #3d291a;
     background-color: #f5f5f5;
 
@@ -104,21 +108,20 @@
 .offerings-topic{
     font-size: 24px;
     text-align: center;
-    border-bottom-style: solid;
-    border-bottom-color:#f27032;
-     border-width: 1px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .offering-description{
+    margin-top: 25px;
     font-size: 14px;
     text-align: center;
+    line-height: 14px;
 }
 
 .font-icon-offerings{
     color: #64c5be;
     font-family: fontAwesome;
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;  
 }
 
@@ -132,6 +135,7 @@
 
 .col-content-offerings{
     text-align: center;
+    font-size: 14px;
 }
 .read-more{
     color: #f27032;
@@ -145,21 +149,65 @@
 /*---- clients ----*/
 
 .clients{
-padding-bottom: 150px;
-    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 33px;
 }
 
 
 .client-topic{
-    font-size: 24px;
-    text-align: center;
-    border-bottom-style: solid;
-    border-bottom-color:#f27032;
-     border-width: 1px;
-    margin-bottom: 40px;
+    font-size: 30px;
+    text-align: center; 
+    padding-bottom: 20px;
 }
 
 .client-description{
     font-size: 14px;
     text-align: center;
+    margin-top: 25px;
 }
+
+.colored-line{
+    margin: auto;
+    z-index: 1;
+    width: 200px;
+    height: 1px;
+    background-color:#f27032;
+}
+
+/*-- section brown --*/
+
+.section-brown{
+    background-color: #3d281a;
+    color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Myriad Pro;
+    font-weight:100;
+}
+
+.section-brown-text{
+    font-size: 14px;
+    font-weight: 100;
+    color: #ffffff;
+    word-spacing: inherit;
+    margin-left: 5px;
+
+}
+
+/*---- event ------*/
+
+.event{
+    background-image: url("../images/header-imgage1.jpg");
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.event-topic{
+    font-size: 30px;
+    text-align: center; 
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
