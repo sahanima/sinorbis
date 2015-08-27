@@ -174,6 +174,18 @@ body{
     background-color:#f27032;
 }
 
+.client{
+    width: 200px;
+    height: 80px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.client-gallary{
+    margin-top: 50px;
+
+}
+
 /*-- section brown --*/
 
 .section-brown{
@@ -290,7 +302,6 @@ body{
     font-size: 14px;
     text-align: center;
     margin-top: 25px;
-
 }
 
 /*------ contact-us-------*/
@@ -298,6 +309,74 @@ body{
 .contact-us{
     padding-top: 65px;
     padding-bottom: 70px;
+    color: #402c1e;
+}
 
+.contact-body{
+    margin-top: 45px;
+
+}
+
+.contact-topic{
+    font-size: 24px;
+    color: #402c1e;
+}
+
+.contact-content{
+      font-size: 14px;
+    color: #402c1e;
+    margin-top: 25px;
+    line-height: 25px;
+    margin-bottom: 50px;
+
+}
+
+.text-box-contact{
+    width: 360px;
+    height: 40px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+
+}
+
+.text-field-contact{
+    width: 100%;
+    height: 120px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+
+}
+
+.button-send{
+    width: 110px;
+    height: 30px;
+    border-color: #ad390c;
+    background-color: #f27032;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.contact-details{
+    font-size: 18px;
+    color: #402c1e;
+    margin-bottom: 40px;
+}
+
+.contact-icon{
+    color: #64c5be;
+    font-family: fontAwesome;
+    font-size: 25px;
+    margin-left: 20px; 
+    margin-right: 30px;
 
 }
