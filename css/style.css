@@ -78,7 +78,18 @@ body{
     
 }
 
+div.fademe {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: block;
+    height: 76px;
+    background: #141414;
+    opacity:0;
+    z-index: 9998;
+}
 /*------ sinorbis-began----*/
+
 .sinorbis-began{
     padding-top: 70px;
     padding-bottom: 70px;
@@ -114,7 +125,7 @@ body{
 }
 
 
-/* ---- uor-offerings ----*/
+/* ---- our-offerings ----*/
 
 .row-offerings{
   margin-top: 50px;
@@ -228,6 +239,7 @@ body{
 
 .member-name{
     font-size: 18px;
+    color: #3d291a;
     color: #3d291a;
     margin-top: 30px;
     text-align: center;
