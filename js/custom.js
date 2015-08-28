@@ -168,11 +168,34 @@ $(document).ready(function () {
 
 
 /* =================================
+===  OWL CROUSEL - 2              ====
+=================================== */
+$(document).ready(function () {
+
+    var owl = $("#sinorbis-team");
+
+    owl.owlCarousel({
+        items: 4, //10 items above 1000px browser width
+        itemsDesktop: [1000, 4], //5 items between 1000px and 901px
+        itemsDesktopSmall: [900, 2], // betweem 900px and 601px
+        itemsTablet: [600, 1], //2 items between 600 and 0
+        itemsMobile: false // itemsMobile disabled - inherit from itemsTablet option
+    });
+
+
+});
+
+
+/* =================================
 ===  Nivo Lightbox              ====
 =================================== */
 $(document).ready(function () {
 
     $('#screenshots a').nivoLightbox({
+        effect: 'fadeScale',
+    });
+    
+    $('#sinorbis-team a').nivoLightbox({
         effect: 'fadeScale',
     });
 
@@ -264,7 +287,15 @@ $(window).stellar({
 horizontalScrolling: false 
 });
 
-
+/* =================================
+===  MENU BAR                    ====
+=================================== */
+var divs = $('.fademe');
+$(window).on('scroll', function() {
+   var st = $(this).scrollTop();
+   var firstDiv = $('#full-width-div-banner').height();
+   divs.css({ 'opacity' : (0 + st/firstDiv) });
+});
 
 /* =================================
 ===  Bootstrap Internet Explorer 10 in Windows 8 and Windows Phone 8 FIX
@@ -278,3 +309,7 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
   )
   document.querySelector('head').appendChild(msViewportStyle)
 }
+
+
+
+

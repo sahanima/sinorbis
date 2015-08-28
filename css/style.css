@@ -2,6 +2,15 @@ body{
  font-family: Myriad Pro;
 }
 
+.topic{
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: Myriad Pro;
+    color: #3d291a;
+
+}
+
 
 /* ---- header-area -----*/
 
@@ -47,8 +56,8 @@ body{
 /*---- nav-bar ----*/
 
 .nav-bar{
-  color: #3d291a;
-    font-size: 14px;
+  color:#ffffff;
+    font-size: 16px;
 }
 
 .icon-nav-bar{
@@ -61,24 +70,38 @@ body{
 
 }
 
+#stickyNav {
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    background: black;
+    
+}
+
 /*------ sinorbis-began----*/
 .sinorbis-began{
     padding-top: 70px;
     padding-bottom: 70px;
 }
 
-.sinorbis-began-topic{
-    color: #3d291a;
-    font-size: 30px;
-    text-align: center;
+.sinorbis-began-paragraph{
+    margin-bottom: 35px;
+    line-height: 20px;
+
+}
+
+.imge-sinorbis-began{
+    width: 100%;
+   
 }
 
 .sinorbis-began-sub-topic{
     color: #3d291a;
     font-size: 15px;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+   
 }
 
 .sinorbis-began-content{
@@ -103,12 +126,6 @@ body{
     color: #3d291a;
     background-color: #f5f5f5;
 
-}
-
-.offerings-topic{
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 20px;
 }
 
 .offering-description{
@@ -151,13 +168,6 @@ body{
 .clients{
     padding-bottom: 50px;
     padding-top: 33px;
-}
-
-
-.client-topic{
-    font-size: 30px;
-    text-align: center; 
-    padding-bottom: 20px;
 }
 
 .client-description{
@@ -208,19 +218,92 @@ body{
 
 }
 
+/*----- sinorbis team ---*/
+
+.content{
+    padding-top: 65px;
+    padding-bottom: 65px;
+
+}
+
+.member-name{
+    font-size: 18px;
+    color: #3d291a;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.member-designation{
+    font-size: 14px;
+    color: #cccccc;
+    text-align: center;
+    
+}
+
+
 /*---- event ------*/
 
 .event{
     background-image: url("../images/header-imgage1.jpg");
     padding-top: 70px;
     padding-bottom: 70px;
+    font-family: Myriad Pro;
+}
+
+.event-main-topic{
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: Myriad Pro;
+    color:#ffffff;
+
+}
+.event-topic{
+    color: #ffffff;
+}
+
+.event-content{
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 40px;
+
+}
+
+.links>a{
+    color: #ffffff;
+    line-height: 40px;
+
 }
 
 .event-topic{
-    font-size: 30px;
-    text-align: center; 
-    padding-bottom: 20px;
-    color: #ffffff;
+    font-size: 24px;
+
+}
+
+.event-sub-topic{
+    font-size: 18px;
+}
+
+.speakers{
+    display: none;
+}
+
+.program{
+    display: none;
+}
+
+.register-now{
+    display: none;
+}
+
+.event-body{
+    border-left-style: solid;
+    border-left-color: #ffffff;
+    border-width: 1px;
+    padding-left: 75px;
+    
+
 }
 
 /*---- insights ------*/
@@ -230,13 +313,6 @@ body{
     padding-bottom: 80px;
 }
 
-.insights-topic{
-    font-size: 30px;
-    text-align: center; 
-    padding-bottom: 20px;
-    color: #402c1e;
-
-}
 
 .col-content-insights{
     font-size: 14px;
@@ -317,11 +393,6 @@ body{
 
 }
 
-.contact-topic{
-    font-size: 24px;
-    color: #402c1e;
-}
-
 .contact-content{
       font-size: 14px;
     color: #402c1e;
@@ -333,7 +404,7 @@ body{
 
 .text-box-contact{
     width: 360px;
-    height: 40px;
+    height: 30px;
     border-color: #cccccc;
     border-style: solid;
     border-width: 1px;
@@ -364,6 +435,7 @@ body{
     background-color: #f27032;
     color: #ffffff;
     margin-top: 5px;
+    margin-bottom: 30px;
 }
 
 .contact-details{
@@ -380,3 +452,76 @@ body{
     margin-right: 30px;
 
 }
+
+/*------- footer------*/
+
+.footer{
+    background-color: #3d281a;
+    font-size: 12px;
+    font-family: Myriad Pro;
+    color: #ffffff;color: #ffffff;
+    padding-top: 55px;
+    padding-bottom: 35px;
+}
+
+.footer-icon{
+    font-family: fontAwesome;
+    font-size: 37px;
+    color: #ffffff;
+    margine-right: 70px;
+    float: right;
+}
+
+.footer-header{
+    margin-bottom: 45px;
+
+}
+
+
+.icon-footer{
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.footer-topic{
+    font-size: 14px;
+}
+
+.second-row-footer{
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.footer-footer{
+    text-align: center;
+
+}
+
+.footer-list{
+    list-style:outside;
+    line-height: 20px
+
+}
+
+/*----- nvg------*/
+
+svg
+{
+	display: block;
+	width: 100%;
+	height: 50px;
+}
+
+.bglightblue4{
+    background:#ffffff;
+}
+	
+.curveUpColor4{
+    fill: #f5f5f5;
+    stroke:#f5f5f5;
+}
+		
+		
+
+
+
