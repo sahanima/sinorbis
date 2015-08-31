@@ -1,0 +1,483 @@
+@media (min-width: 970px) and (max-width: 1170px) {
+
+    /*---- common ----*/
+
+
+
+.topic{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* ---- header-area -----*/
+
+
+.header-area{
+    padding-top: 100px;
+    padding-bottom:30px;
+    font-size: 20px;
+}
+
+.topic-header{
+    font-size: 38px;
+    padding-bottom: 40px;
+}
+
+.header-integers{
+   font-size: 30px;
+   margin-left: 20px;
+}
+
+.header-icon-down{
+    font-size: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.icon{
+    color: #ffffff;
+   margin-top: -150px;
+}
+
+/*---- nav-bar ----*/
+
+.nav-bar{
+    color:#ffffff;
+    font-size: 14px;
+}
+
+
+
+.nav-with-icon{
+    margin-left: 60px;
+
+}
+
+
+/*------ sinorbis-began----*/
+
+.sinorbis-began-paragraph{
+    margin-bottom: 30px;
+    line-height: 17px;
+
+}
+
+.imge-sinorbis-began{
+    width: 100%;
+   
+}
+
+.sinorbis-began-sub-topic{
+
+    font-size: 14px;
+    padding-top: 16px;
+    margin-bottom: 10px;
+   
+}
+
+.sinorbis-began-content{
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+.image-map{
+ width: 100%;
+}
+
+
+/* ---- our-offerings ----*/
+
+.row-offerings{
+  margin-top: 40px;
+}
+
+
+
+.offering-description{
+    margin-top: 20px;
+}
+
+.font-icon-offerings{
+  font-size: 24px;
+}
+
+.col-topic-offerings{
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.col-content-offerings{
+    font-size: 14px;
+}
+
+
+/*---- clients ----*/
+
+.client-description{
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.colored-line{
+    width: 170px;
+}
+
+.client{
+    width: 200px;
+    height: 80px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.client-gallary{
+    margin-top: 50px;
+
+}
+
+/*-- section brown --*/
+
+.section-brown{
+    background-color: #3d281a;
+    color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Myriad Pro;
+    font-weight:100;
+}
+
+.section-brown-text{
+    font-size: 14px;
+    font-weight: 100;
+    color: #ffffff;
+    word-spacing: inherit;
+    margin-left: 5px;
+
+}
+
+/*----- sinorbis team ---*/
+
+.content{
+    padding-top: 65px;
+    padding-bottom: 65px;
+
+}
+
+.member-name{
+    font-size: 18px;
+    color: #3d291a;
+    color: #3d291a;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.member-designation{
+    font-size: 14px;
+    color: #cccccc;
+    text-align: center;
+    
+}
+
+
+/*---- event ------*/
+
+.event{
+    background-image: url("../images/header-imgage1.jpg");
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: Myriad Pro;
+}
+
+.event-main-topic{
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: Myriad Pro;
+    color:#ffffff;
+
+}
+.event-topic{
+    color: #ffffff;
+}
+
+.event-content{
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 40px;
+
+}
+
+
+.links> a{
+    color: #ffffff;
+    line-height: 40px;
+
+
+}
+
+.links> a:hover{
+    color:#f3814c;
+    text-decoration: none;
+}
+
+
+.event-topic{
+    font-size: 24px;
+
+}
+
+.event-sub-topic{
+    font-size: 18px;
+}
+
+.speakers{
+    display: none;
+}
+
+.program{
+    display: none;
+}
+
+.register-now{
+    display: none;
+}
+
+.event-body{
+    border-left-style: solid;
+    border-left-color: #ffffff;
+    border-width: 1px;
+    padding-left: 75px;
+}
+
+.links>a>span{
+ float: right;
+    margin-right: 40px;
+
+}
+
+/*---- insights ------*/
+
+
+.col-content-insights{
+    font-size: 14px;
+     color: #402c1e;
+    margin-top: 25px;
+
+}
+
+.col-content-insights>a{
+    font-size: 14px;
+    color: #402c1e;
+}
+
+.nico{    
+    color: #5cc1f1;
+    margin-right: 5px;
+}
+
+/* --- form--------------*/
+
+.form{
+    background-color: #f5f5f5;
+}
+
+.form-topic{
+    font-size: 24px;
+    text-align: center;
+    font-family: Myriad Pro;
+    color: #402c1e;
+    padding-bottom: 30px;
+}
+
+.form-content{
+
+   padding-right: 8%;
+    padding-left: 8%;
+}
+
+.text-box{
+    border-radius: 5px;
+    width: 360px;
+    height: 30px;
+    padding: 5px;
+    margin-right: 30px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.button-subscribe{
+    width: 165px;
+    height: 30px;
+    border-color: #ad390c;
+    background-color: #f27032;
+    color: #ffffff;
+}
+
+.form-content{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/*------ contact-us-------*/
+
+.contact-us{
+
+    color: #402c1e;
+}
+
+.contact-body{
+    margin-top: 45px;
+
+}
+
+.contact-content{
+      font-size: 14px;
+    color: #402c1e;
+    margin-top: 25px;
+    line-height: 25px;
+    margin-bottom: 50px;
+
+}
+
+.text-box-contact{
+    width: 360px;
+    height: 30px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+
+}
+
+.text-field-contact{
+    width: 100%;
+    height: 120px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+
+}
+
+.button-send{
+    width: 110px;
+    height: 30px;
+    border-color: #ad390c;
+    background-color: #f27032;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.contact-details{
+    font-size: 18px;
+    color: #402c1e;
+    margin-bottom: 40px;
+}
+
+.contact-icon{
+    color: #64c5be;
+    font-family: fontAwesome;
+    font-size: 25px;
+    margin-left: 20px; 
+    margin-right: 30px;
+
+}
+
+/*------- footer------*/
+
+.footer{
+    background-color: #3d281a;
+    font-size: 12px;
+    font-family: Myriad Pro;
+    color: #ffffff;color: #ffffff;
+    padding-top: 55px;
+    padding-bottom: 35px;
+}
+
+.footer-icon{
+    font-family: fontAwesome;
+    font-size: 37px;
+    color: #ffffff;
+    margine-right: 70px;
+    float: right;
+}
+
+.footer-header{
+    margin-bottom: 45px;
+
+}
+
+
+.icon-footer{
+    padding-right: 20px;
+    color: #ffffff;
+    
+}
+
+.footer-topic{
+    font-size: 14px;
+}
+
+.second-row-footer{
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.footer-footer{
+    text-align: center;
+
+}
+
+.footer-list{
+    list-style:outside;
+    line-height: 20px;
+    list-style: none;
+}
+
+.footer-list>li>span{
+     margin-right: 30px;
+}
+
+/*----- nvg------*/
+
+svg
+{
+	display: block;
+	width: 100%;
+	height: 50px;
+}
+
+.bglightblue4{
+    background:#ffffff;
+}
+	
+.curveUpColor4{
+    fill: #f5f5f5;
+    stroke:#f5f5f5;
+}
+		
+		
+
+
+
+
+
+}

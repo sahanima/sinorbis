@@ -1,3 +1,5 @@
+/*---- common ----*/
+
 body{
  font-family: Myriad Pro;
 }
@@ -6,8 +8,12 @@ body{
     font-size: 30px;
     margin-bottom: 25px;
     text-align: center;
-    font-family: Myriad Pro;
     color: #3d291a;
+}
+
+.section{
+    padding-top: 80px;
+    padding-bottom: 80px;
 
 }
 
@@ -45,6 +51,7 @@ body{
     font-family: fontAwesome;
     color: #ffffff;
     font-size: 50px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -58,6 +65,11 @@ body{
 .nav-bar{
   color:#ffffff;
     font-size: 16px;
+}
+
+.navbar-nav>li>a:hover { 
+    background: rgba(0, 0, 0, 0.7);
+    color: #f17032;
 }
 
 .icon-nav-bar{
@@ -74,7 +86,7 @@ body{
     width: 100%;
     position: fixed;
     z-index: 9999;
-    background: black;
+    background: rgba(0, 0, 0, 0.7);
     
 }
 
@@ -83,17 +95,13 @@ div.fademe {
     position: fixed;
     top: 0px;
     display: block;
-    height: 76px;
-    background: #141414;
+    background: rgba(0, 0, 0, 0.7);
     opacity:0;
     z-index: 9998;
 }
 /*------ sinorbis-began----*/
 
-.sinorbis-began{
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
+
 
 .sinorbis-began-paragraph{
     margin-bottom: 35px;
@@ -131,9 +139,9 @@ div.fademe {
   margin-top: 50px;
 }
 
+
+
 .our-offerings{
-    padding-top: 50px;
-    padding-bottom:70px;
     color: #3d291a;
     background-color: #f5f5f5;
 
@@ -175,11 +183,6 @@ div.fademe {
 }
 
 /*---- clients ----*/
-
-.clients{
-    padding-bottom: 50px;
-    padding-top: 33px;
-}
 
 .client-description{
     font-size: 14px;
@@ -258,8 +261,8 @@ div.fademe {
 
 .event{
     background-image: url("../images/header-imgage1.jpg");
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     font-family: Myriad Pro;
 }
 
@@ -282,11 +285,19 @@ div.fademe {
 
 }
 
-.links>a{
+
+.links> a{
     color: #ffffff;
     line-height: 40px;
 
+
 }
+
+.links> a:hover{
+    color:#f3814c;
+    text-decoration: none;
+}
+
 
 .event-topic{
     font-size: 24px;
@@ -314,16 +325,15 @@ div.fademe {
     border-left-color: #ffffff;
     border-width: 1px;
     padding-left: 75px;
-    
+}
+
+.links>a>span{
+ float: right;
+    margin-right: 40px;
 
 }
 
 /*---- insights ------*/
-
-.insights{
-    padding-top: 40px;
-    padding-bottom: 80px;
-}
 
 
 .col-content-insights{
@@ -347,9 +357,6 @@ div.fademe {
 
 .form{
     background-color: #f5f5f5;
-    padding-top: 50px;
-    padding-bottom: 40px;
-    
 }
 
 .form-topic{
@@ -395,8 +402,7 @@ div.fademe {
 /*------ contact-us-------*/
 
 .contact-us{
-    padding-top: 65px;
-    padding-bottom: 70px;
+
     color: #402c1e;
 }
 
@@ -493,6 +499,7 @@ div.fademe {
 .icon-footer{
     padding-right: 20px;
     color: #ffffff;
+    
 }
 
 .footer-topic{
@@ -511,8 +518,12 @@ div.fademe {
 
 .footer-list{
     list-style:outside;
-    line-height: 20px
+    line-height: 20px;
+    list-style: none;
+}
 
+.footer-list>li>span{
+     margin-right: 30px;
 }
 
 /*----- nvg------*/
