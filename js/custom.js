@@ -186,7 +186,7 @@ horizontalScrolling: false
 var divs = $('.fademe');
 $(window).on('scroll', function() {
    var st = $(this).scrollTop();
-   var firstDiv = $('#full-width-div-banner').height();
+   var firstDiv = $('.header-area').height();
    divs.css({ 'opacity' : (0 + st/firstDiv) });
 });
 

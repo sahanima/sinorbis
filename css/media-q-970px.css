@@ -1,56 +1,623 @@
-@media (min-width: 750px) and (max-width: 970px) {
+/*---- common ----*/
+
+body{
+ font-family: Myriad Pro;
+}
+
+.topic{
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #3d291a;
+}
+
+.section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+
+/* ---- header-area -----*/
+
+.image{
+    width: 100%;
+    
+}
+
+.header-area{
+    background-image: url("../images/header-image2.jpg");
+    padding-top: 150px;
+    padding-bottom:50px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    font-family: Myriad Pro;
+    
+}
+
+.topic-header{
+    font-size: 48px;
+    padding-bottom: 50px;
+}
+
+.header-integers{
+   color: #f27032;
+   font-size: 36px;
+   margin-left: 30px;
+}
+
+.header-icon-down{
+    font-family: fontAwesome;
+    color: #ffffff;
+    font-size: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.icon{
+  color:aqua;
+  margin-top: -200px;
+}
+
+/*---- nav-bar ----*/
+
+.nav-bar{
+  color:#ffffff;
+    font-size: 16px;
+}
+
+.navbar{
+    margin-bottom: 0;
+
+}
+
+.navbar-nav>li>a{
+    line-height: 50px;
+}
+
+.navbar-nav>li>a:hover { 
+    background: rgba(0, 0, 0, 0.7);
+    color: #f17032;
+}
+
+.icon-nav-bar{
+    margin-right: 5px;
+    color: #63c6be;
+}
+
+.nav-with-icon{
+    margin-left: 80px;
+
+}
+
+#stickyNav {
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.7);
+    
+}
+
+div.fademe {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: block;
+    background: rgba(0, 0, 0, 0.7);
+    opacity:0;
+    z-index: 9998;
+}
+/*------ sinorbis-began----*/
+
+
+
+.sinorbis-began-paragraph{
+    margin-bottom: 35px;
+    line-height: 20px;
+
+}
+
+.imge-sinorbis-began>image{ 
+    margin: 0px;  
+}
+
+.sinorbis-began-sub-topic{
+    color: #3d291a;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 15px;
+   
+}
+
+.sinorbis-began-content{
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.image-map{
+ width: 100%;
+}
+
+
+
+
+/* ---- our-offerings ----*/
+
+.row-offerings{
+  margin-top: 50px;
+}
+
+
+
+.our-offerings{
+    color: #3d291a;
+    background-color: #f5f5f5;
+
+}
+
+.offering-description{
+    margin-top: 25px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 16px;
+}
+
+.font-icon-offerings{
+    color: #64c5be;
+    font-family: fontAwesome;
+    font-size: 28px;
+    text-align: center;  
+}
+
+.col-topic-offerings{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.col-content-offerings{
+    text-align: center;
+    font-size: 16px;
+}
+.read-more{
+    color: #f27032;
+    text-align: center;
+}
+
+.read-more>a{
+    color: #f27032;
+}
+
+/*---- clients ----*/
+
+.client-description{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.colored-line{
+    margin: auto;
+    z-index: 1;
+    width: 200px;
+    height: 1px;
+    background-color:#f27032;
+}
+
+.client{
+    width: 200px;
+    height: 80px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.client-gallary{
+    margin-top: 50px;
+
+}
+
+/*-- section brown --*/
+
+.section-brown{
+    background-color: #3d281a;
+    color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Myriad Pro;
+    font-weight:100;
+}
+
+.section-brown-text{
+    font-size: 16px;
+    font-weight: 100;
+    color: #ffffff;
+    word-spacing: inherit;
+    margin-left: 5px;
+
+}
+
+/*----- sinorbis team ---*/
+
+.content{
+    padding-top: 65px;
+    padding-bottom: 65px;
+
+}
+
+.member-name{
+    font-size: 18px;
+    color: #3d291a;
+    color: #3d291a;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.member-designation{
+    font-size: 16px;
+    color: #cccccc;
+    text-align: center;
+    
+}
+
+
+/*---- event ------*/
+
+.event{
+    background-image: url("../images/header-imgage1.jpg");
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: Myriad Pro;
+}
+
+.event-main-topic{
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: Myriad Pro;
+    color:#ffffff;
+
+}
+.event-topic{
+    color: #ffffff;
+}
+
+.event-content{
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 40px;
+
+}
+
+
+.links> a{
+    color: #ffffff;
+    line-height: 40px;
+    text-decoration: none;
+
+}
+
+.links> a:hover{
+    color:#f3814c;
+    text-decoration: none;
+}
+
+
+.event-topic{
+    font-size: 24px;
+
+}
+
+.event-sub-topic{
+    font-size: 18px;
+}
+
+.speakers{
+    display: none;
+}
+
+.program{
+    display: none;
+}
+
+.register-now{
+    display: none;
+}
+
+.event-body{
+    border-left-style: solid;
+    border-left-color: #ffffff;
+    border-width: 1px;
+    padding-left: 75px;
+}
+
+.links>a>span{
+ float: right;
+    margin-right: 40px;
+
+}
+
+/*---- insights ------*/
+
+
+.col-content-insights{
+    font-size: 14px;
+     color: #402c1e;
+    margin-top: 25px;
+
+}
+
+.col-content-insights>a{
+    font-size: 16px;
+    color: #402c1e;
+}
+
+.nico{    
+    color: #5cc1f1;
+    margin-right: 5px;
+}
+
+/* --- form--------------*/
+
+.form{
+    background-color: #f5f5f5;
+}
+
+.form-topic{
+    font-size: 24px;
+    text-align: center;
+    font-family: Myriad Pro;
+    color: #402c1e;
+
+}
+
+.form-content{
+
+   padding-right: 8%;
+    padding-left: 8%;
+}
+
+.text-box{
+    border-radius: 5px;
+    width: 360px;
+    height: 40px;
+    padding: 5px;
+    margin-right: 30px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.button-subscribe{
+    width: 165px;
+    height: 40px;
+    border-color: #ad390c;
+    background-color: #f27032;
+    color: #ffffff;
+}
+
+.form-content{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/*------ contact-us-------*/
+
+.contact-us{
+
+    color: #402c1e;
+}
+.contact-topic{
+ font-size: 24px;
+
+}
+
+
+
+.contact-body{
+    margin-top: 45px;
+
+}
+
+.contact-content{
+    font-size: 16px;
+    color: #402c1e;
+    margin-top: 25px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.text-box-contact{
+    width: 360px;
+    height: 40px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+
+}
+
+.text-field-contact{
+    width: 100%;
+    height: 120px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+
+}
+
+.button-send{
+    width: 110px;
+    height: 40px;
+    border-color: #ad390c;
+    background-color: #f27032;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.contact-details{
+    font-size: 18px;
+    color: #402c1e;
+    margin-bottom: 40px;
+}
+
+.contact-icon{
+    color: #64c5be;
+    font-family: fontAwesome;
+    font-size: 25px;
+    margin-left: 20px; 
+    margin-right: 30px;
+
+}
+
+/*------- footer------*/
+
+.footer{
+    background-color: #3d281a;
+    font-size: 14px;
+    font-family: Myriad Pro;
+    color: #ffffff;color: #ffffff;
+    padding-top: 55px;
+    padding-bottom: 35px;
+}
+
+.footer-icon{
+    font-family: fontAwesome;
+    font-size: 37px;
+    color: #ffffff;
+    margine-right: 70px;
+    float: right;
+}
+
+.footer-header{
+    margin-bottom: 45px;
+
+}
+
+
+.icon-footer{
+    padding-right: 20px;
+    color: #ffffff;
+    
+}
+
+.footer-topic{
+    font-size: 16px;
+}
+
+.second-row-footer{
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.footer-footer{
+    text-align: center;
+
+}
+
+.footer-list{
+    list-style:outside;
+    line-height: 20px;
+    list-style: none;
+}
+
+.footer-list>li>span{
+     margin-right: 30px;
+}
+
+/*----- nvg------*/
+
+svg
+{
+	display: block;
+	width: 100%;
+	height: 50px;
+}
+
+.bglightblue4{
+    background:#ffffff;
+}
+	
+.curveUpColor4{
+    fill: #f5f5f5;
+    stroke:#f5f5f5;
+}
+		
+		
+
+@media (min-width: 970px) and (max-width: 1170px) {
 
     /*---- common ----*/
 
 
 
 .topic{
-    font-size: 20px;
-    margin-bottom: 18px;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .section{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 /* ---- header-area -----*/
 
 
 .header-area{
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom:30px;
     font-size: 20px;
 }
 
 .topic-header{
-    font-size: 34px;
-    padding-bottom: 32px;
+    font-size: 40px;
+    padding-bottom: 40px;
 }
 
 .header-integers{
-   font-size: 25px;
-   margin-left: 16px;
+   font-size: 30px;
+   margin-left: 20px;
 }
 
 .header-icon-down{
-    font-size: 32px;
+    font-size: 40px;
+    font-size: 40px;
+    text-align: center;
 }
 
 .icon{
-   margin-top: -100px;
+    color: #ffffff;
+   margin-top: -150px;
 }
 
 /*---- nav-bar ----*/
 
 .nav-bar{
-    font-size: 12px;
+    color:#ffffff;
+    font-size: 14px;
 }
 
 
 
 .nav-with-icon{
-    margin-left: 50px;
+    margin-left: 60px;
 
 }
 
@@ -63,15 +630,22 @@
 
 }
 
+.imge-sinorbis-began{
+    width: 100%;
+   
+}
+
 .sinorbis-began-sub-topic{
+
     font-size: 14px;
     padding-top: 16px;
     margin-bottom: 10px;
+   
 }
 
 .sinorbis-began-content{
-    margin-top: 30px;
-    font-size: 12px;
+    margin-top: 40px;
+    font-size: 14px;
 }
 
 .image-map{
@@ -91,8 +665,8 @@
     margin-top: 20px;
 }
 
-.font-icon-offerings{
-  font-size: 24px;
+.font-icon-offerings>i>.fa{
+  font-size: 50px;
 }
 
 .col-topic-offerings{
@@ -237,7 +811,7 @@
 
 .form-topic{
     font-size: 20px;
-    padding-bottom: 25px;
+  
 }
 
 .form-content{
@@ -335,5 +909,332 @@
 .footer-list>li>span{
      margin-right: 20px;
 }
+}
 
+@media (min-width: 750px) and (max-width: 970px) {
+
+    /*---- common ----*/
+
+
+
+.topic{
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.section{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+/* ---- header-area -----*/
+
+
+.header-area{
+    padding-top: 80px;
+    padding-bottom:30px;
+    font-size: 20px;
+}
+
+.topic-header{
+    font-size: 34px;
+    padding-bottom: 32px;
+}
+
+.header-integers{
+   font-size: 25px;
+   margin-left: 16px;
+}
+
+.header-icon-down{
+    font-size: 32px;
+}
+
+.icon{
+   margin-top: -100px;
+}
+
+/*---- nav-bar ----*/
+
+.nav-bar{
+    font-size: 12px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav-with-icon{
+    margin-left: 50px;
+
+}
+
+
+/*------ sinorbis-began----*/
+
+.sinorbis-began-paragraph{
+    margin-bottom: 30px;
+    line-height: 17px;
+
+}
+
+.sinorbis-began-sub-topic{
+    font-size: 14px;
+    padding-top: 16px;
+    margin-bottom: 10px;
+}
+
+.sinorbis-began-content{
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.image-map{
+ width: 100%;
+}
+
+
+/* ---- our-offerings ----*/
+
+.row-offerings{
+  margin-top: 40px;
+}
+
+
+
+.offering-description{
+    margin-top: 20px;
+}
+
+.font-icon-offerings{
+  font-size: 20px;
+}
+
+.col-topic-offerings{
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.col-content-offerings{
+    font-size: 12px;
+}
+
+
+/*---- clients ----*/
+
+.client-description{
+    font-size: 12px;
+}
+
+.colored-line{
+    width: 170px;
+}
+
+.client{
+    width: 200px;
+    height: 80px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.client-gallary{
+    margin-top: 50px;
+
+}
+
+/*-- section brown --*/
+
+.section-brown{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.section-brown-text{
+    font-size: 13px;
+}
+
+/*----- sinorbis team ---*/
+
+.content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.member-name{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.member-designation{
+    font-size: 12px;  
+}
+
+
+/*---- event ------*/
+
+.event{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.event-main-topic{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.event-content{
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
+.links> a{
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.event-topic{
+    font-size: 20px;
+}
+
+.event-sub-topic{
+    font-size: 16px;
+}
+
+
+.event-body{
+    padding-left: 50px;
+}
+
+.links>a>span{
+    margin-right: 28px;
+
+}
+
+/*---- insights ------*/
+
+
+.col-content-insights{
+    font-size: 14px;
+    margin-top: 25px;
+
+}
+
+.col-content-insights>a{
+    font-size: 14px;
+}
+
+.nico{    
+    margin-right: 5px;
+}
+
+/* --- form--------------*/
+
+.form-topic{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+
+.text-box{
+  
+    width: 230px;
+    margin-right: 20px;
+
+}
+
+.button-subscribe{
+    width: 130px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.form-content{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+/*------ contact-us-------*/
+
+.contact-body{
+    margin-top: 35px;
+
+}
+    
+.contact-topic {
+    font-size: 18px;
+}
+
+
+.contact-content{
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.text-box-contact{
+    width: 230px;
+    padding: 10px;
+
+}
+
+
+.button-send{
+    width: 90px;
+}
+
+.contact-details{
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.contact-icon{
+
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+/*------- footer------*/
+
+.footer{
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.footer-icon{
+    margine-right: 40px;
+}
+
+.footer-header{
+    margin-bottom: 30px;
+}
+
+
+.footer-topic{
+    font-size: 13px;
+}
+
+.second-row-footer{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+
+.footer-list>li>span{
+     margin-right: 15px;
+}
+}
+
+@media (max-width: 768px) {
+    
+.footer{
+    display: none;
+}
+}
 
