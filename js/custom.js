@@ -172,6 +172,14 @@ $('.expand-form').simpleexpand({
 });
 
 
+/* =================================
+===      Scroll-bar           ====
+=================================== */
+ window.onload = function () {
+        [].forEach.call(document.querySelectorAll('.scroll-body'), function (el) {
+          Ps.initialize(el);
+        });
+      };
 
 /* =================================
 ===  STELLAR                    ====

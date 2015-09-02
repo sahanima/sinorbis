@@ -17,6 +17,26 @@ body{
 
 }
 
+/*-----scroll-bar-----------*/
+
+.scroll-body { 
+    position:relative; 
+    margin:0px auto; 
+    padding:0px; 
+    width: 100%; 
+    height: 200px; 
+    overflow: auto; }
+    
+.scroll-body .content { 
+    width: 100%; 
+    height: 400px; }
+
+/* to make scrollbars always visible */
+.always-visible.ps-scroll-body > .ps-scrollbar-x-rail,
+.always-visible.ps-scroll-body > .ps-scrollbar-y-rail {
+        opacity: 0.6;
+}
+
 
 /* ---- header-area -----*/
 
@@ -172,6 +192,22 @@ div.fademe {
   margin-top: 50px;
 }
 
+.offering-col{
+    padding 10px;
+
+}
+
+.content-box{
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #CCCCCC;
+    border-width: 1px;
+}
+
+.row-offerings>.col-md-3{
+     padding: 20px;
+}
 
 
 .our-offerings{
@@ -267,11 +303,7 @@ div.fademe {
 
 /*----- sinorbis team ---*/
 
-.content{
-    padding-top: 65px;
-    padding-bottom: 65px;
 
-}
 
 .member-name{
     font-size: 18px;
@@ -363,7 +395,7 @@ div.fademe {
     border-left-style: solid;
     border-left-color: #ffffff;
     border-width: 1px;
-    padding-left: 75px;
+    padding-left: 50px;
 }
 
 .links>a>span{
@@ -747,11 +779,6 @@ svg
 
 /*----- sinorbis team ---*/
 
-.content{
-    padding-top: 65px;
-    padding-bottom: 65px;
-
-}
 
 .member-name{
     font-size: 18px;
