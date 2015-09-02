@@ -132,6 +132,7 @@ body{
     line-height: 75px;
     vertical-align: middle;
 }
+
 #stickyNav {
     
     width: 100%;
@@ -189,7 +190,7 @@ div.fademe {
 /* ---- our-offerings ----*/
 
 .row-offerings{
-  margin-top: 50px;
+    width: 100%;
 }
 
 .offering-col{
@@ -642,7 +643,6 @@ svg
 
 .header-area{
     padding-top: 100px;
-    padding-bottom:30px;
     font-size: 20px;
 }
 
@@ -665,7 +665,8 @@ svg
 
 .icon{
     margin-top: -100px;
-    position: absolute;
+    display: block;
+    text-align: center;
 }
 
 /*---- nav-bar ----*/
@@ -718,6 +719,7 @@ svg
 
 .row-offerings{
   margin-top: 40px;
+    width: 100%;
 }
 
 
@@ -731,7 +733,7 @@ svg
 }
 
 .col-topic-offerings{
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 16px;
     margin-top: 16px;
 }
